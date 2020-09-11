@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <script>
+      const auth = localStorage.getItem("auth");
+      if (!auth) {
+        location.href = "/login";
+      }
+    </script>
+  </head>
+  <body>
+    Req Task page
+  </body>
+</html>
